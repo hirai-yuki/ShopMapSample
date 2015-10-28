@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF751E281BDFEC70007622F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF751E271BDFEC70007622F6 /* main.m */; };
+		AF751E2B1BDFEC70007622F6 /* CLMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF751E2A1BDFEC70007622F6 /* CLMAppDelegate.m */; };
+		AF751E311BDFEC70007622F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF751E2F1BDFEC70007622F6 /* Main.storyboard */; };
+		AF751E331BDFEC70007622F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF751E321BDFEC70007622F6 /* Assets.xcassets */; };
+		AF751E361BDFEC70007622F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF751E341BDFEC70007622F6 /* LaunchScreen.storyboard */; };
+		AF751E411BDFED04007622F6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF751E401BDFED04007622F6 /* MapKit.framework */; };
+		AF751E441BDFEE34007622F6 /* CLMShopAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = AF751E431BDFEE34007622F6 /* CLMShopAnnotation.m */; };
+		AF751E4E1BE022CD007622F6 /* CLMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF751E4D1BE022CD007622F6 /* CLMMainViewController.m */; };
+		AF751E741BE02A40007622F6 /* CLMRouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF751E731BE02A40007622F6 /* CLMRouteViewController.m */; };
+		AFF10CE41BE03C47002191AA /* CLMMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF10CE31BE03C47002191AA /* CLMMapViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF751E231BDFEC70007622F6 /* ShopMapSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopMapSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF751E271BDFEC70007622F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF751E291BDFEC70007622F6 /* CLMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLMAppDelegate.h; sourceTree = "<group>"; };
+		AF751E2A1BDFEC70007622F6 /* CLMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLMAppDelegate.m; sourceTree = "<group>"; };
+		AF751E301BDFEC70007622F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF751E321BDFEC70007622F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF751E351BDFEC70007622F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF751E371BDFEC70007622F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF751E401BDFED04007622F6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AF751E421BDFEE33007622F6 /* CLMShopAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMShopAnnotation.h; sourceTree = "<group>"; };
+		AF751E431BDFEE34007622F6 /* CLMShopAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMShopAnnotation.m; sourceTree = "<group>"; };
+		AF751E4C1BE022CD007622F6 /* CLMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMMainViewController.h; sourceTree = "<group>"; };
+		AF751E4D1BE022CD007622F6 /* CLMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMMainViewController.m; sourceTree = "<group>"; };
+		AF751E721BE02A40007622F6 /* CLMRouteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMRouteViewController.h; sourceTree = "<group>"; };
+		AF751E731BE02A40007622F6 /* CLMRouteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMRouteViewController.m; sourceTree = "<group>"; };
+		AFF10CDE1BE0357B002191AA /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		AFF10CDF1BE0357B002191AA /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		AFF10CE01BE035D9002191AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		AFF10CE11BE035D9002191AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		AFF10CE21BE03C47002191AA /* CLMMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMMapViewController.h; sourceTree = "<group>"; };
+		AFF10CE31BE03C47002191AA /* CLMMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMMapViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF751E201BDFEC70007622F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF751E411BDFED04007622F6 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF751E1A1BDFEC70007622F6 = {
+			isa = PBXGroup;
+			children = (
+				AF751E401BDFED04007622F6 /* MapKit.framework */,
+				AF751E251BDFEC70007622F6 /* ShopMapSample */,
+				AF751E241BDFEC70007622F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF751E241BDFEC70007622F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF751E231BDFEC70007622F6 /* ShopMapSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF751E251BDFEC70007622F6 /* ShopMapSample */ = {
+			isa = PBXGroup;
+			children = (
+				AF751E291BDFEC70007622F6 /* CLMAppDelegate.h */,
+				AF751E2A1BDFEC70007622F6 /* CLMAppDelegate.m */,
+				AF751E2F1BDFEC70007622F6 /* Main.storyboard */,
+				AF751E321BDFEC70007622F6 /* Assets.xcassets */,
+				AF751E341BDFEC70007622F6 /* LaunchScreen.storyboard */,
+				AF751E371BDFEC70007622F6 /* Info.plist */,
+				AF751E261BDFEC70007622F6 /* Supporting Files */,
+				AF751E4C1BE022CD007622F6 /* CLMMainViewController.h */,
+				AF751E4D1BE022CD007622F6 /* CLMMainViewController.m */,
+				AFF10CE21BE03C47002191AA /* CLMMapViewController.h */,
+				AFF10CE31BE03C47002191AA /* CLMMapViewController.m */,
+				AF751E721BE02A40007622F6 /* CLMRouteViewController.h */,
+				AF751E731BE02A40007622F6 /* CLMRouteViewController.m */,
+				AF751E421BDFEE33007622F6 /* CLMShopAnnotation.h */,
+				AF751E431BDFEE34007622F6 /* CLMShopAnnotation.m */,
+			);
+			path = ShopMapSample;
+			sourceTree = "<group>";
+		};
+		AF751E261BDFEC70007622F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF751E271BDFEC70007622F6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF751E221BDFEC70007622F6 /* ShopMapSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF751E3A1BDFEC70007622F6 /* Build configuration list for PBXNativeTarget "ShopMapSample" */;
+			buildPhases = (
+				AF751E1F1BDFEC70007622F6 /* Sources */,
+				AF751E201BDFEC70007622F6 /* Frameworks */,
+				AF751E211BDFEC70007622F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShopMapSample;
+			productName = ShopMapSample;
+			productReference = AF751E231BDFEC70007622F6 /* ShopMapSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF751E1B1BDFEC70007622F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CLM;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Yuki  Hirai";
+				TargetAttributes = {
+					AF751E221BDFEC70007622F6 = {
+						CreatedOnToolsVersion = 7.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = AF751E1E1BDFEC70007622F6 /* Build configuration list for PBXProject "ShopMapSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+			);
+			mainGroup = AF751E1A1BDFEC70007622F6;
+			productRefGroup = AF751E241BDFEC70007622F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF751E221BDFEC70007622F6 /* ShopMapSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF751E211BDFEC70007622F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF751E361BDFEC70007622F6 /* LaunchScreen.storyboard in Resources */,
+				AF751E331BDFEC70007622F6 /* Assets.xcassets in Resources */,
+				AF751E311BDFEC70007622F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF751E1F1BDFEC70007622F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF751E741BE02A40007622F6 /* CLMRouteViewController.m in Sources */,
+				AF751E2B1BDFEC70007622F6 /* CLMAppDelegate.m in Sources */,
+				AF751E281BDFEC70007622F6 /* main.m in Sources */,
+				AFF10CE41BE03C47002191AA /* CLMMapViewController.m in Sources */,
+				AF751E4E1BE022CD007622F6 /* CLMMainViewController.m in Sources */,
+				AF751E441BDFEE34007622F6 /* CLMShopAnnotation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF751E2F1BDFEC70007622F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF751E301BDFEC70007622F6 /* Base */,
+				AFF10CDE1BE0357B002191AA /* ja */,
+				AFF10CE01BE035D9002191AA /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF751E341BDFEC70007622F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF751E351BDFEC70007622F6 /* Base */,
+				AFF10CDF1BE0357B002191AA /* ja */,
+				AFF10CE11BE035D9002191AA /* en */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF751E381BDFEC70007622F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AF751E391BDFEC70007622F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF751E3B1BDFEC70007622F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShopMapSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.classmethod.ShopMapSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF751E3C1BDFEC70007622F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShopMapSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.classmethod.ShopMapSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF751E1E1BDFEC70007622F6 /* Build configuration list for PBXProject "ShopMapSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF751E381BDFEC70007622F6 /* Debug */,
+				AF751E391BDFEC70007622F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF751E3A1BDFEC70007622F6 /* Build configuration list for PBXNativeTarget "ShopMapSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF751E3B1BDFEC70007622F6 /* Debug */,
+				AF751E3C1BDFEC70007622F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF751E1B1BDFEC70007622F6 /* Project object */;
+}
